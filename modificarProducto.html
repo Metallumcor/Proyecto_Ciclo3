@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar producto</title>
+    <link rel="stylesheet" href="CSS/fonts.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/style-producto.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">    
+</head>
+<body>
+    <div class = "limiter">
+        <div class = "content-container">
+            <div class="page-header">
+                <h1>Nombre Administrador - Fecha y hora</h1>
+            </div>            
+            <div class="wrap-search">
+                <div class="search">
+                    <input type="search" class="search-Term" id = "productSearch" 
+                    placeholder="Buscar...">                
+                    <button type="submit" class="search-Button" id = "doSearch">
+                        <i class="fa fa-search"></i>
+                    </button>    
+                </div>
+            </div>            
+            <div class="wrap-content">
+                <form class="product-form-add" action="" method="POST">
+
+                    <label for="productId">Referencia</label>
+                    <div class="wrap-inputs">
+                        <input class="inputs" type="number" name="IdProd" id="productId" 
+                        placeholder="Eg. 13211">
+                    </div>
+ 
+                    <label for="productName">Nombre del producto</label>            
+                    <div class="wrap-inputs">
+                        <input class="inputs" type="text" name="Nombre" id="productName" 
+                        placeholder="Eg. Empanadas de carne">
+                    </div>
+
+
+                    <label for="productQuantity">Cantidad</label>
+                    <div class="wrap-inputs">
+                        <input class="inputs" type="number" name="Quantity" id="productQuantity"
+                        placeholder="Eg. 10">
+                    </div>                  
+
+                    <label for="productDescription">Descripción</label>
+                    <div class="wrap-inputs">
+                        <input class="inputs" type="text" name="Description" id="productDescription"
+                        placeholder="Eg. Lorem ipsum...">
+                    </div>                  
+                    
+                </form>
+                <div class="wrap-product-image">
+                    <span class="container-product-image">
+                        <label for="productImage">Imagen del producto</label>
+                    </span>
+                    <form  action="">
+                        <div class="container-button-inblock">
+                            <input type="file"  id="productImage" style="display: none;">
+                            <input class="button-image" type="button" value="Subir imagen" 
+                            onclick="document.getElementById('product-image').click();" />                            
+                        </div>
+                    </form>
+                </div>
+            </div>             
+        </div>
+        <div class="wrap-button-mod">
+            <div class="container-button">
+                <button class="button-mod" type="submit">Actualizar</button>
+            </div>
+            <div class="container-button">
+                <button class="button-mod" type="submit">Eliminar</button>
+            </div>            
+        </div>
+        <b href="https://www.freepik.es/fotos/fondo">Foto de Fondo creado por tirachard - www.freepik.es</b>         
+    </div>     
+</body>
+</html>
