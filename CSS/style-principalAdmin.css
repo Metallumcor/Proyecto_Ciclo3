@@ -4,6 +4,13 @@ h1{
     width: 100%;
     padding: 0 0px 0 68px;    
 }
+h2{
+    text-align: right;
+    line-height: 1.5;
+    font-size:1rem;
+    width: 100%;
+    padding: 0 0rem 0 4.25rem;
+}
 p{
     text-align: justify;
     font-family: Poppins-Medium;
@@ -52,7 +59,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 3em 3.5rem 3em 4rem;
+    padding: 3em 3rem 3em 4rem;
 }
 /* Texto */
 /* padding UP RI LOW LEF*/
@@ -64,6 +71,7 @@ p{
     text-align: center;
     width: 100%;
     display: block;
+    padding: 0em 3rem 0em 0rem;
 }
 
 .second-tier-list{

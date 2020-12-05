@@ -64,16 +64,15 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5vh 3rem 5vh 5rem;
+    padding: 0 0rem 0 4.25rem;
 }
 
 .container-button-inblock {
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 1em;
-    padding-left: 2.5em;
+    padding: 0 0rem 0 4.25rem;
 }
 
 
@@ -111,14 +110,13 @@ h2{
 .product-form-add{
     width: 50%;
     position: relative;
-    padding: 2em 3rem 2rem 5em;
+    padding: 2em 3rem 2rem 3em;
 }
 .product-form-image{
     width: 100%;
     position: relative;
     padding: 2em 0rem 2rem 0em;
 }
-
 .search {
     width: 100%;
     position: relative;

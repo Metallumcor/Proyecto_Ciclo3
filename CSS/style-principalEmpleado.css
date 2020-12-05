@@ -12,9 +12,33 @@ p{
     line-height: 1.5;
     color: #666666;
 }
+h2{
+    text-align: right;
+    line-height: 1.5;
+    font-size:1rem;
+    width: 100%;
+    padding: 0 0rem 0 4.25rem;
+}
 h3{
     font-style: italic; 
+    line-height: 0;
 }
+/*-----------------MOSAICO para los productos --------------*/
+.content-mosaico{
+    overflow: hidden;
+    width: 100%;
+    min-height: 50vh;
+    padding: 5vh 0rem 1.5vh 0rem;
+}
+.element {
+    list-style: none;
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin : 8px;
+  }
+
+/*-----------------------------------------------------------------*/
 .page-header{
     width: 85%;
     position: absolute;
@@ -41,7 +65,7 @@ h3{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 5rem 5rem 5rem 6.25rem;
+    padding: 2rem 5rem 5rem 6.25rem;
 }
 .first-tier-list{
     font-family: Poppins-Bold;
@@ -100,6 +124,7 @@ h3{
     border-radius: 10%;
     border-style: dashed;
     border-color: #00b4cb;
+    padding: 0rem 0rem 0rem 0rem;
 }
 .form-button{
     font-style: bold;
